@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+  font-family:arial;
+}
+body{ 
+	margin: 0;
+	padding: 0;
+	}
+h1{
+	text-align:center;
+	padding: 20px 0px;
+}
+p{
+	margin: 40px 0;
+}
+.top-right {
+	position: absolute;
+	right: 11px;
+	padding: 5px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.chicken{
+	background: pink;
+	color: #000;
+}
+.beef{
+	background: red;
+	color: #fff;
+}
+.sushi{
+	background: yellow;
+	color: #000;
+}
+
+/********** Desktop **********/
+.row {
+  width: 100%;
+  }
+.col-lg-4{
+    float: left;
+	padding: 0 10px;
+	position: relative;
+	margin-bottom:20px;
+  }
+.inner{
+	background:#ddd;
+	border:1px solid black;
+	padding:0 20px;
+}
+  
+@media (min-width: 992px) {
+
+  .col-lg-4 {
+    width: 33.33%;
+  }
+ 
+}
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12{
+	  width:100%;
+  }
+  
+}
+
+/********** Mobile devices only **********/
+@media (max-width:767px) {
+ 
+  .col-xs-12 {
+    width: 100%;
+  }
+ 
+  
+}
